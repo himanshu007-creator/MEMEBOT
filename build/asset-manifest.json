@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Reddit-meme/static/css/main.d6e085ad.css",
+    "main.js": "/Reddit-meme/static/js/main.02acee3b.js",
+    "static/js/377.4b1ade8c.chunk.js": "/Reddit-meme/static/js/377.4b1ade8c.chunk.js",
+    "service-worker.js": "/Reddit-meme/service-worker.js",
+    "index.html": "/Reddit-meme/index.html",
+    "main.d6e085ad.css.map": "/Reddit-meme/static/css/main.d6e085ad.css.map",
+    "main.02acee3b.js.map": "/Reddit-meme/static/js/main.02acee3b.js.map",
+    "377.4b1ade8c.chunk.js.map": "/Reddit-meme/static/js/377.4b1ade8c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6e085ad.css",
+    "static/js/main.02acee3b.js"
+  ]
+}
