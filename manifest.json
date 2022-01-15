@@ -1,0 +1,47 @@
+{
+  "short_name": "MEMEBOT",
+  "name": "Fresh Dank Memes to make your day",
+  "icons": [
+    {
+      "src": "/assets/icons/icon48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/assets/icons/icon72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/assets/icons/icon96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/assets/icons/icon144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/assets/icons/icon192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/playstore.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/assets/icons/appstore.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#ee6f72",
+  "display": "standalone",
+  "theme_color": "#9e2123",
+  "description": "One stop app to save time and serve dankness"
+}

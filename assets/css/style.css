@@ -1,0 +1,71 @@
+.brand-logo{
+    width:30px;
+    height:30px;
+}
+@media screen and (min-width: 993px) {
+    .row .col.m6{
+        position:relative;
+        left:15%;
+        width:74%;
+        margin-top: 5%;
+    }
+}
+/*PC*/
+@media screen and (min-width: 1024px){
+.card{
+    width:70%;
+}
+.row .col.m6 {
+    left:12% !important;
+    margin-top: 2% !important;
+}
+
+}
+
+
+/*Laptop*/
+@media screen and (min-width: 1010px) {
+    .row .col.m6{
+        width:70% !important;
+    }
+    .card{
+        left:17%;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 601px) {
+    .row .col.m6{
+        position:relative;
+        left:7%;
+        width:80%;
+        margin-top: 5%;
+        height:100%;
+    }
+    .card{
+        height:80vh;
+    }
+    .card .card-image {
+        height:84%;
+    }
+    .card .card-image img{
+        height:100%;
+    }
+}
+
+/* #Mobile */
+@media screen and (max-width: 600px){
+    .row .col.s12{
+        height:60vh;
+        margin-top: 20%;
+    }
+    .card{
+        height:100%;
+    }
+    .card .card-image {
+        height:80%;
+    }
+    .card .card-image img {
+        height:100%;
+    }
+}
