@@ -21,7 +21,10 @@ document.onload = fetchMemes().then((data) => {
   Link = data.postLink;
   document.getElementById("img").src = Src;
   document.getElementById("desc").innerHTML = Title;
-  document.getElementById("link").href = Link;
+});
+var Image = document.getElementById("img");
+Image.addEventListener("click", () => {
+  window.open(`Link`, "_blank");
 });
 
 next.addEventListener("click", () => {
