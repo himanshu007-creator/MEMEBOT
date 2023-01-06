@@ -9,7 +9,7 @@ var Title;
 var Link;
 var next = document.getElementById("next");
 async function fetchMemes() {
-  const url = "https://meme-api.herokuapp.com/gimme";
+  const url = "https://meme-api.com/gimme";
   const response = await fetch(url);
   const memes = await response.json();
   return memes;
