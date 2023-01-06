@@ -24,7 +24,7 @@ document.onload = fetchMemes().then((data) => {
 });
 var Image = document.getElementById("img");
 Image.addEventListener("click", () => {
-  window.open(`Link`, "_blank");
+  window.open(Link, "_blank");
 });
 
 next.addEventListener("click", () => {
